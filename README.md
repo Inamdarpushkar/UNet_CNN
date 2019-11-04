@@ -34,3 +34,7 @@ As used in a similar study by Chorr et al, I modified the padding to the ‘same
 when doing convolutions. Also, I have added the batch normalization after each ReLU activation
 and used Adam Optimizer for faster convergence during training phase. I did training on smallbatches of 8 images with 50 epochs. I used Keras callback ReduceLROnPlateau to reduce the
 learning rate by a factor of 0.1. 
+
+<img width="526" alt="Screen Shot 2019-11-04 at 3 26 51 PM" src="https://user-images.githubusercontent.com/28696943/68166633-cb33a180-ff17-11e9-8783-0b9328cb10b0.png"><img width="526" alt="Screen Shot 2019-11-04 at 3 26 51 PM" src="https://user-images.githubusercontent.com/28696943/68166633-cb33a180-ff17-11e9-8783-0b9328cb10b0.png">
+
+
