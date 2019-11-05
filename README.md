@@ -55,6 +55,7 @@ model is tuned with a sufficient dataset then it can be used to estimate buildin
 in Boston.
 
 References
+
 Chhor, Guillaume, C. Bartolome Aramburu, and I. Bougdal-Lambert. "Satellite Image Segmentation for
 Building Detection using U-net." Web: http://cs229. stanford. edu/proj2017/final-reports/5243715.
 pdf (2017).
