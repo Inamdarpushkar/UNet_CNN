@@ -37,4 +37,24 @@ learning rate by a factor of 0.1.
 
 <img width="526" alt="Screen Shot 2019-11-04 at 3 26 51 PM" src="https://user-images.githubusercontent.com/28696943/68166633-cb33a180-ff17-11e9-8783-0b9328cb10b0.png">
 
+<img width="584" alt="Screen Shot 2019-11-04 at 3 26 59 PM" src="https://user-images.githubusercontent.com/28696943/68170285-f9b77980-ff23-11e9-89f7-07f19a99e187.png">
 
+Future work
+To address the problem of overfitting, the data augmentation and resampling procedures like
+kfold-cross-validation would help. Moreover transfer learning would speed up training and
+improve the performance of the model.
+
+We can notice in the figure-3, the ground truth mask layer is not matching to the building features
+in the latest Aerial image. This mislabeling might have led to suboptimal performance during the
+test phase. It would be interesting to see the results with upto-date mask layer.
+It would be interesting to compare the performances of other states of the art image segmentation
+architectures like Mask R-CNN to accomplish the feature segmentation task.
+
+In this analysis, I focused on data processing and basic semantic segmentation modeling. Once the
+model is tuned with a sufficient dataset then it can be used to estimate building footprint coverage
+in Boston.
+
+References
+Chhor, Guillaume, C. Bartolome Aramburu, and I. Bougdal-Lambert. "Satellite Image Segmentation for
+Building Detection using U-net." Web: http://cs229. stanford. edu/proj2017/final-reports/5243715.
+pdf (2017).
